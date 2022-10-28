@@ -1,10 +1,10 @@
 module.exports = {
   sources: [
     {
-      name: 'EIP721',
+      name: 'NEP141',
       handler: {
         graphql: {
-          endpoint: 'https://api.thegraph.com/subgraphs/name/digitalnativeinc/rinkeby-erc721',
+          endpoint: 'https://api.thegraph.com/subgraphs/name/gadillacer/near-misfits-indexer',
         },
       },
     },
@@ -28,7 +28,7 @@ module.exports = {
   ],
   additionalTypeDefs:
     'enum Standard {\n' +
-    '  erc721\n' +
+    '  nep141\n' +
     '  erc1155\n' +
     '}\n' +
     'extend type Token {\n' +
