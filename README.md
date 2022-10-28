@@ -1,7 +1,5 @@
 # NFT Browser
 
-Simple front-end to the amazing [EIP721 Subgraph](https://thegraph.com/explorer/subgraph/amxx/eip721-subgraph) by @amxx.
+Simple front-end to the [Near NFT Subgraph] by @dabit3
 
-View online: https://nfts.vercel.app
-
-View source: https://github.com/schmidsi/nft-browser
+WIP: Further it will index for all NEP-141 standard
